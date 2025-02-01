@@ -246,10 +246,10 @@ function validatePassword() {
 
 <?php
 // Database connection
-$servername = "localhost";
-$username = "root";
-$password = "root";
-$dbname = "was";
+$servername = "sql12.freesqldatabase.com";
+$username = "sql12760617";
+$password = "MlT4me7z2n";
+$dbname = "sql12760617";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
